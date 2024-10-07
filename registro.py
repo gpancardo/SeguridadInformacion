@@ -1,5 +1,6 @@
 import sqlite3
 import generarNumero
+import redireccion
 
 entradas = []
 
@@ -50,7 +51,7 @@ def escribirBase():
 
 def main():
     escribirBase()
-    print("Se ha creado un archivo numero.secreto que es necesario para iniciar sesión.")
-    generarNumero.numeroSecreto(entradas[1])
+    generarNumero.numeroSecreto(entradas[0])
+    redireccion.redireccion("")
 
 main()
