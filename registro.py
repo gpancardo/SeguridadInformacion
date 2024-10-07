@@ -53,5 +53,4 @@ def main():
     print("Se ha creado un archivo numero.secreto que es necesario para iniciar sesión.")
     generarNumero.numeroSecreto(entradas[1])
 
-if __name__ == "__main__":
-    main()
+main()
