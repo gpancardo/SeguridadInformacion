@@ -30,7 +30,7 @@ def recibirInformacion():
     else:
         print("La información es incorrecta.")
         salir=input("Quiere regresar al menu principal? S/N ")
-        if (salir.upper=="S"):
+        if (salir.upper()=="S"):
             redireccion.redireccion("")
         recibirInformacion()
     conexion.close()
